@@ -1,3 +1,18 @@
+# sample-react-mobx-ts
+```
+$ yarn create react-app sample-react-mobx-ts
+
+$ yarn add mobx mobx-react
+
+// 데코레이터를 사용할 수 있도록 tsconfig.json에 다음 추가
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true
+  }
+}
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
